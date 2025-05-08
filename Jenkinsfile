@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven_3.8.7'  // Ensure Maven is available in Jenkins
-        jdk 'JDK_17'         // Ensure JDK 11 is available in Jenkins
+        maven 'Maven'  // Ensure Maven is available in Jenkins
+        jdk 'JDK'         // Ensure JDK 11 is available in Jenkins
     }
 
     environment {
